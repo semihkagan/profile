@@ -1,3 +1,3 @@
 # My Profile Site
-Referances
+Referances:
 https://otto-mars.github.io/profile
