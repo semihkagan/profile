@@ -1,0 +1,13 @@
+DirectoryIndex index.html
+<Files all>
+    Order allow,deny
+    Deny from all
+</Files>
+ErrorDocument 404 ./404.html
+ErrorDocument 502 ./ConnectError.html
+ErrorDocument 503 ./ConnectError.html
+ErrorDocument 504 ./ConnectError.html
+ErrorDocument 400 ./ConnectError.html
+ErrorDocument 401 ./ConnectError.html
+ErrorDocument 403 ./ConnectError.html
+ErrorDocument 500 ./ConnectError.html
